@@ -63,6 +63,19 @@ body {
   height:30px;
 }
 
+.player.fullscreen {
+    border: none;
+    box-shadow: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+}
+
 .player__controls {
   display:flex;
   position: absolute;
